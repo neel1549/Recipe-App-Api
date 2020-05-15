@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'coreapp',
-    'user'
+    'user',
+    'recipe'
 
 ]
 
@@ -87,6 +88,8 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASS'),
     }
 }
+
+
 
 
 # Password validation
