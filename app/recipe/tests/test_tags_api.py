@@ -83,3 +83,8 @@ class PrivateTagsApiTests(TestCase):
         res = self.client.post(TAGS_URL, payload)
 
         self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_partial_update_recipe(self):
+        recipe=sample_recipe(user=self.user)
+        recipe.tags.add(sample_tag(user=self.user))
+        new_tag=sample_tag(user=)
