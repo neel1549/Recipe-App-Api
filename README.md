@@ -13,6 +13,8 @@ How to Start:
 docker-compose build
 docker-compose up
 
+** Credits: Udemy Django REST Framework Course
+
 
 
 
