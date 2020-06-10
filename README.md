@@ -5,7 +5,16 @@ Technologies Used:
 Python, Django Rest Framework, Docker, TravisCI, Postman(Testing)
 
 Function:
-Can add recipes, ingredients, tags, and images to a token authenticated user profile
+- Can add recipes, ingredients, tags, and images to a token authenticated user profile
+- Unit Tests throughout the project to ensure legitimacy of API
 
-Endpoints:
+How to Start:
+
+docker-compose build
+docker-compose up
+
+
+
+
+
 
